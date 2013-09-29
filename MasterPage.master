@@ -1,0 +1,225 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table>
+            <tr>
+                <td style="width: 183px; height: 21px">
+                </td>
+                <td colspan="4" style="height: 21px; text-align: center">
+                </td>
+                <td style="width: 102px; height: 21px">
+                </td>
+                <td style="width: 100px; height: 21px">
+                </td>
+                <td style="width: 100px; height: 21px">
+                </td>
+                <td style="width: 100px; height: 21px">
+                </td>
+                <td style="width: 100px; height: 21px">
+                    <asp:LinkButton ID="lbt_signout" runat="server" OnClick="lbt_signout_Click">SignOut</asp:LinkButton></td>
+            </tr>
+            <tr>
+                <td style="width: 183px; height: 21px;">
+                </td>
+                <td colspan="4" style="text-align: center; height: 21px;">
+                    <span style="color: #0000ff"><span style="font-size: 32pt"><strong><span style="font-family: Blackadder ITC">
+                        <em><span style="color: #9900cc"></span></em></span></strong></span></span></td>
+                <td style="width: 102px; height: 21px;">
+                    <strong><em><span style="font-size: 32pt"><span style="font-family: Blackadder ITC">
+                        <span style="color: #9900cc">M</span><span style="color: #66ff99">a</span><span style="color: #ff6633">i</span><span
+                            style="color: #0000ff">l</span><span style="color: #339933">S</span><span style="color: #ff00cc">e</span><span
+                                style="color: #ff9933">r</span><span style="color: #0000ff">ver&nbsp;</span></span></span></em></strong></td>
+                <td style="width: 100px; height: 21px">
+                    <strong><em><span style="font-size: 32pt"><span style="font-family: Blackadder ITC">
+                        <span style="color: #9900cc"></span><span style="color: #0000ff">&nbsp; &nbsp; &nbsp;
+                            &nbsp;&nbsp; </span></span></span></em></strong>
+                </td>
+                <td style="width: 100px; height: 21px">
+                </td>
+                <td style="width: 100px; height: 21px">
+                </td>
+                <td style="width: 100px; height: 21px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 183px">
+                </td>
+                <td style="width: 100px">
+                </td>
+                <td style="width: 100px">
+                </td>
+                <td style="width: 100px">
+                </td>
+                <td style="width: 100px">
+                </td>
+                <td style="width: 102px">
+                </td>
+                <td style="width: 100px">
+                </td>
+                <td style="width: 100px">
+                </td>
+                <td style="width: 100px">
+                </td>
+                <td style="width: 100px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 183px;" rowspan="2">
+                    &nbsp;&nbsp;<br />
+                </td>
+                <td style="width: 100px; height: 26px">
+                </td>
+                <td style="width: 100px; height: 26px">
+                </td>
+                <td style="width: 100px; height: 26px">
+                </td>
+                <td colspan="1" style="height: 26px">
+                </td>
+                <td colspan="2" style="height: 26px">
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                </td>
+                <td colspan="1" style="height: 26px">
+                    <asp:Button ID="btn_searchmail" runat="server" Text="Search Mail" Width="96px" /></td>
+                <td colspan="4" style="height: 26px">
+                    <asp:TextBox ID="TextBox1" runat="server" Width="188px"></asp:TextBox></td>
+            </tr>
+            <tr>
+                <td style="width: 100px; height: 27px;">
+                </td>
+                <td style="width: 100px; height: 27px;">
+                </td>
+                <td style="width: 100px; height: 27px;">
+                </td>
+                <td style="width: 100px; height: 27px;">
+                </td>
+                <td style="width: 102px; height: 27px;">
+                </td>
+                <td style="width: 100px; height: 27px;">
+                </td>
+                <td style="width: 100px; height: 27px;">
+                </td>
+                <td style="width: 100px; height: 27px;">
+                </td>
+                <td style="width: 100px; height: 27px;">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 183px">
+                    <asp:LinkButton ID="lbt_compose" runat="server" OnClick="lbt_compose_Click" Width="102px">Compose Mail</asp:LinkButton><br />
+                    <asp:LinkButton ID="lbt_inbox" runat="server" OnClick="lbt_inbox_Click">Inbox</asp:LinkButton>&nbsp;<br />
+                    <asp:LinkButton ID="lbt_sentmail" runat="server" OnClick="lbt_sentmail_Click">Sent Mail</asp:LinkButton>
+                    &nbsp;&nbsp; &nbsp;</td>
+                <td colspan="9" rowspan="18">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 183px">
+                    </td>
+            </tr>
+            <tr>
+                <td style="width: 183px">
+                    </td>
+            </tr>
+            <tr>
+                <td style="width: 183px">
+                    </td>
+            </tr>
+            <tr>
+                <td style="width: 183px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 183px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 183px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 183px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 183px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 183px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 183px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 183px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 183px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 183px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 183px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 183px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 183px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 183px">
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>
